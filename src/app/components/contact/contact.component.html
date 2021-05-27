@@ -1,0 +1,25 @@
+<div class="container">
+ 
+    
+  <form #contactForm>
+    <div class="for-group my-4" >
+      <label>Name</label>
+       <input type="text" class="form-control" name="Name" placeholder="*Name" ngModel >
+    </div>
+    <div class="for-group my-4" >
+      <label>Email</label>
+       <input type="text" class="form-control" name="Email" placeholder="*Email" ngModel>
+    </div>
+    <div class="for-group my-4" >
+      <label>Message</label>
+      <textarea name="massage" rows="8" cols="80" placeholder="*Massage" class="form-control"
+      formControlName="massage" ngModel></textarea>
+    </div>
+    <button (click)="submit()" class="btn btn-warning btn-lg my-4 " >Send</button>
+  </form>
+  
+  
+    <p style="text-align: end;">Phone: +91 7057293793</p>
+    <p style="text-align: end;">Email: mdreyajalal0007@gmail.com</p>
+    <p style="text-align: end;">Website: www.careerbnana.com</p>
+  </div>
